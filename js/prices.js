@@ -14,6 +14,7 @@ var getPricesArray = function () {
     buromaxMarkers['styrayuchi'] = markerColors;
 
     // масив для нестираючих маркерів (використовуємо той же масив)
+    markerColors = []; // створюємо новий масив
     markerColors['black'] = 3.0; //array consists of prices
     markerColors['red'] = 3.0;
     markerColors['green'] = 3.0;
@@ -22,6 +23,7 @@ var getPricesArray = function () {
     buromaxMarkers['nestyrayuchi'] = markerColors;
 
     // масив для cd-маркерів (використовуємо той же масив)
+    markerColors = []; // створюємо новий масив
     markerColors['black'] = 13.0; //array consists of prices
     markerColors['red'] = 13.0;
     markerColors['green'] = 13.0;
@@ -30,6 +32,7 @@ var getPricesArray = function () {
 
     pricesArray['buromax'] = buromaxMarkers;
     var leoMarkers = []; // масив іншої марки
+    markerColors = []; // створюємо новий масив
     markerColors['black'] = 5.6; //array consists of prices
     markerColors['red'] = 5.6;
     markerColors['green'] = 5.6;
@@ -37,6 +40,7 @@ var getPricesArray = function () {
     leoMarkers['styrayuchi'] = markerColors;
 
     // масив для нестираючих маркерів (використовуємо той же масив)
+    markerColors = []; // створюємо новий масив
     markerColors['black'] = 3.0; //array consists of prices
     markerColors['red'] = 3.0;
     markerColors['green'] = 3.0;
@@ -45,6 +49,7 @@ var getPricesArray = function () {
     leoMarkers['nestyrayuchi'] = markerColors;
 
     // масив для cd-маркерів (використовуємо той же масив)
+    markerColors = []; // створюємо новий масив
     markerColors['black'] = 13.0; //array consists of prices
     markerColors['red'] = 13.0;
     markerColors['green'] = 13.0;
@@ -55,6 +60,7 @@ var getPricesArray = function () {
 
     var dSignerMarkers = [];
 
+    markerColors = []; // створюємо новий масив
     markerColors['black'] = 5.6; //array consists of prices
     markerColors['red'] = 5.6;
     markerColors['green'] = 5.6;
@@ -62,6 +68,7 @@ var getPricesArray = function () {
     dSignerMarkers['styrayuchi'] = markerColors;
 
     // масив для нестираючих маркерів (використовуємо той же масив)
+    markerColors = []; // створюємо новий масив
     markerColors['black'] = 3.0; //array consists of prices
     markerColors['red'] = 3.0;
     markerColors['green'] = 3.0;
@@ -70,6 +77,7 @@ var getPricesArray = function () {
     dSignerMarkers['nestyrayuchi'] = markerColors;
 
     // масив для cd-маркерів (використовуємо той же масив)
+    markerColors = []; // створюємо новий масив
     markerColors['black'] = 13.0; //array consists of prices
     markerColors['red'] = 13.0;
     markerColors['green'] = 13.0;
@@ -79,6 +87,7 @@ var getPricesArray = function () {
     pricesArray['dsignerb'] = dSignerMarkers;
     var schneiderMarkers = [];
 
+    markerColors = []; // створюємо новий масив
     markerColors['black'] = 5.6; //array consists of prices
     markerColors['red'] = 5.6;
     markerColors['green'] = 5.6;
@@ -86,6 +95,7 @@ var getPricesArray = function () {
     schneiderMarkers['styrayuchi'] = markerColors;
 
     // масив для нестираючих маркерів (використовуємо той же масив)
+    markerColors = []; // створюємо новий масив
     markerColors['black'] = 3.0; //array consists of prices
     markerColors['red'] = 3.0;
     markerColors['green'] = 3.0;
@@ -94,6 +104,7 @@ var getPricesArray = function () {
     schneiderMarkers['nestyrayuchi'] = markerColors;
 
     // масив для cd-маркерів (використовуємо той же масив)
+    markerColors = []; // створюємо новий масив
     markerColors['black'] = 13.0; //array consists of prices
     markerColors['red'] = 13.0;
     markerColors['green'] = 13.0;
