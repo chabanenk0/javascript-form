@@ -85,24 +85,26 @@
               <label>Колір:</label>
               <ul>
                 <li>
-                  <input type="radio" name="marker_color" value="black" id="marker-color-black" />
+                  <input type="radio" name="marker_color" value="black" id="marker-color-black" class="marker-color" />
                   <label for="marker-color-black">Чорний</label>
                 </li>
                 <li>
-                  <input type="radio" name="marker_color" value="red" id="marker-color-red" />
+                  <input type="radio" name="marker_color" value="red" id="marker-color-red" class="marker-color" />
                   <label for="marker-color-red">Червоний</label>
                 </li>
                 <li>
-                  <input type="radio" name="marker_color" value="green" id="marker-color-green" />
+                  <input type="radio" name="marker_color" value="green" id="marker-color-green" class="marker-color" />
                   <label for="marker-color-green">Зелений</label>
                 </li>
                 <li>
-                  <input type="radio" name="marker_color" value="blue" id="marker-color-blue" />
+                  <input type="radio" name="marker_color" value="blue" id="marker-color-blue" class="marker-color" />
                   <label for="marker-color-blue">Синій</label>
                 </li>
               </ul>
-              <label for="marker-kryshechka">Додаткова кришечка</label>
-              <input type="checkbox" name="marker_kryshechka" class="form-control" id="marker-kryshechka">
+              <div>
+                <label for="marker-kryshechka">Додаткова кришечка</label>
+                <input type="checkbox" name="marker_kryshechka"  id="marker-kryshechka">
+              </div>
 
               <label for="marker-number">Кількість</label>
               <input type="number" name="marker_number" class="form-control" id="marker-number">
@@ -119,19 +121,19 @@
                 <input type="text" name="user_father_name" class="form-control" id="user-father-name">
                 <label for="delivery-type">Тип доставки</label>
                 <select class="form-control" name="delivery-type" id="delivery-type">
-                  <option value="1" selected="selected">Самовивіз</option>
-                  <option value="2">Нова пошта</option>
-                  <option value="3">Укрпошта</option>
+                  <option value="self" selected="selected">Самовивіз</option>
+                  <option value="novaposhta">Нова пошта</option>
+                  <option value="ukrposhta">Укрпошта</option>
                 </select>
 
                 <label for="user-father-name">Адреса доставки</label>
-                <input type="text" name="user_father_name" class="form-control" id="user-father-name">
+                <input type="text" name="user_father_name" class="form-control" id="user-address">
               </div><!--/.col-xs-6.col-lg-4-->
             </div><!--/row-->
-            <div class="result">
+            <div id="result">
 
             </div>
-            <input type="submit" class="btn btn-primary" value="Замовити" />
+            <button class="btn btn-primary" value="Замовити"  onclick="submitOrder(); return false;">Замовити</button>
           </form>
         </div><!--/.col-xs-12.col-sm-9-->
 
@@ -162,6 +164,7 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/prices.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
